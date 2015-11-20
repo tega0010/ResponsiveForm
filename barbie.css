@@ -1,0 +1,68 @@
+html {
+background-color: aquamarine;
+    font-family: 'Indie Flower';
+}
+
+@media screen and (max-width: 600px){
+
+    div {
+        padding-bottom: 1rem;
+    }
+    
+      label {
+        display: none;
+          font-family: 'Lobster' cursive;
+          
+    }
+    
+    input {
+        width: 100%;
+       background-color: lightcyan;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    div {
+        width:50%;
+        float: left;
+        padding-bottom: 1rem;
+    
+    }
+    
+    label {
+        display: block;
+        font-family: 'Lobster' cursive;
+    }
+    
+    input {
+        width: 75%;
+        float: left;
+        background-color: skyblue;
+    }
+}
+    
+@media screen and (min-width: 1024px) {
+
+    div {
+        display:inline;
+        padding-bottom: 1rem;
+        width:50%;
+        float: left;
+    }
+    
+    label {
+        float:left;
+        display: block;
+        font-family: 'Lobster' cursive;
+        padding-left: 3rem;
+    }
+    
+    input {
+        display: inline;
+        width: 75%;
+        float: right;
+        background-color: aqua;
+    }
+}
